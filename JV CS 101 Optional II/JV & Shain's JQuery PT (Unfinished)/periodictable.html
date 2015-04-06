@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-- Unfinished jQuery Periodic Table by JV Estolas and Shain Lafazan -->
+<!-- We weren't allowed to use html tables to make this -->
+
+<html lang="en">
+<head>
+	<title>Periodic Table of Elements - Testing with jQuery</title>
+	<meta charset="UTF-8">
+	<meta name="Periodic Table" description="Recreation of Periodic Table">
+	<link rel="stylesheet" href="periodictable.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+ <!-- END WRAPPER -->
+	</div>
+
+	<!-- Each cell (square) has its own unique id  -->
+	<script type="text/javascript">
+		for(var j=0;j<7;j++) {	
+			$('#wrapper').append('<div class="row' + j + '" >')
+			for (var i = 0; i < 19; i ++) {
+				console.log('printing');
+				$('#wrapper').append('<div class="cell" id="cell' + j + '-' + i + '"></div>')
+				document.getElementById('cell' + j + '-' + i).innerHTML = document.getElementById('cell' + j + '-' + i).innerHTML + '<p>' + i + j + '</p>';
+			}
+			$('#wrapper').append("</div>")
+		}
+	</script>
+<!-- ' + j + '"' + ' -->
+</body>
+</html>
+

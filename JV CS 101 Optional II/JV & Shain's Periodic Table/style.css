@@ -1,0 +1,107 @@
+* {
+	font-family: verdana;
+}
+
+p {
+	font-size: .65em;
+	text-align: center;
+	color: red;
+}
+
+.cell {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0 0 0px;
+	text-align:center;
+}
+
+
+#wrapper {
+		background: -moz-linear-gradient(lightgray, white);
+}
+
+#wrapper #upper .row .cell:first-child {
+	background-color: transparent;
+}
+
+#wrapper #upper #row1 .cell {
+	background-color: transparent;
+}
+
+.row {
+	display: block;
+	
+}
+#lower {
+	margin-top: 20px;
+}
+
+
+#upper .cell {
+	background-color: transparent;
+}
+
+
+#lower .cell {
+	background-color: transparent;
+}
+
+#upper .blue {
+	background-color: blue;
+}
+
+#upper .yellow {
+	background-color: orange;
+}
+
+#upper .pink {
+	background-color: pink;
+}
+
+#upper .row .cell:nth-child(4){
+	margin: 5px 0 0 10px;
+}
+
+#lower .green {
+	background-color: green;
+}
+
+#left {
+	display: inline-block;
+	margin-left:10px;;
+	vertical-align:top;
+/* 	height: 200px; */
+	width: 50px;
+}
+
+#right {
+	display: inline-block;
+	margin-left:82px;
+	vertical-align:top;
+	width: 700px;
+}
+
+.name {
+	font-size:.8em;
+	width: 130px;
+	margin:5px 0 0 10px;
+	padding-top: 10px;
+}
+
+#wrapper #lower .row {
+	display: inline-block;
+}
+
+#lower #left p {
+	display: inline-block;
+	margin-left: 32px;
+	font-size: .65em;
+}
+
+.blueletters{
+	font-weight: bold;
+	color:navy;
+	font-size:.8em;
+}

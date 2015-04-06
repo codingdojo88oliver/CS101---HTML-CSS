@@ -1,0 +1,114 @@
+.container {
+  background-color: #BBB;
+}
+
+.row {
+  margin: 2%;
+}
+
+.row > *{
+	border-radius: 20px;
+}
+
+.col-sm-11 {
+	background-color: gray;
+	border-radius: 20px;
+	min-height: 5em;
+  margin-left: 2%;
+}
+
+.col-sm-3 {
+	background-color: blue;
+  margin-left: 2%;
+}
+
+.col-sm-7 {
+	background-color: yellow;
+  margin-left: 2%;
+}
+
+/* #wrapper {
+	width: 970px;
+	height: auto;
+	background-color: #EEEEEE;
+	font-family: times new roman;
+	padding: 10px 45px 10px 10px;
+	
+}
+
+#header {
+	background-color: #DDDDDD;
+	height: 80px;
+	font-size: 30px;
+	margin-bottom: 25px;
+	padding: 15px; 0px 5px 15px;
+	border: 1px solid;
+	border-radius: 25px;
+}
+
+#sidebar {
+	background-color: #DDDDDD;
+	width: 220px;
+	display: inline-block;
+	margin-right: 20px;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 18px;
+	
+}
+
+#content {
+	background-color: #AAAAAA;
+	width: 640px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 20px 30px 20px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 18px;
+}
+
+#footer {
+	background-color: #DDDDDD;
+	margin-top: 25px;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 18px;
+}
+
+.content-header {
+	font-size: 35px;
+	margin: 20px 0px 20px 0px;
+}
+
+.bold:link {
+	font-weight: bold;
+}
+
+#content ul li a:visited {
+	font-weight: normal;
+	color: blue;
+}
+
+
+ul {
+	padding: 5px 0px 5px 10px;
+}
+
+li {
+	padding-left: 5px;
+}
+
+#sidebar ul li {
+	padding-bottom: 2px;
+}
+
+#content ul{
+	padding-left: 35px;
+}
+
+#content ul li {
+	padding-top: 15px;
+} */

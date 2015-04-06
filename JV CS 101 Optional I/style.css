@@ -1,0 +1,39 @@
+#square {
+	width: 140px;
+	height: 140px;
+	background: blue;
+	margin-bottom: 20px;
+	border: 2px solid black;
+}
+
+#circle {
+	width: 140px;
+	height: 140px;
+	border-radius: 100px 100px 100px 100px;
+	background: orangered;
+	margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+#uptriangle {
+	height: 0;
+	width: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 140px solid black;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#pacman {
+	width: 0;
+	height: 0;
+	border-top: 100px solid olive;
+	border-right: 100px solid olive;
+	border-bottom: 100px solid olive;
+	border-left: 100px solid transparent;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
